@@ -3,7 +3,7 @@
 
 void getBinary(int number){
     int result_module = 0;
-    int items = 1, index = 0;
+    int items = 1;
     int binary_results[items];
     do {
         items++;
