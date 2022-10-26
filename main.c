@@ -5,7 +5,6 @@ void getBinary(int number){
     int result_module = 0;
     int items = 1, index = 0;
     int binary_results[items];
-
     do {
         items++;
         result_module = number % 2;
@@ -23,7 +22,6 @@ int main(){
     scanf("%s", &word_to_convert);
     printf("\n");
     int wordlen = strlen(word_to_convert);
-    int binary[wordlen];
     for (int i = 0; i < wordlen; i++) {
         int letter_decimal = (int)word_to_convert[i];
         getBinary(letter_decimal);
