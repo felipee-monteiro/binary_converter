@@ -11,7 +11,6 @@ void getBinary(int number){
         binary_results[items - 1] = result_module;
         printf("%i", binary_results[items - 1]);
         number = number / 2;
-        index++;
     } while (number != 0);
     printf("\t");
 }
