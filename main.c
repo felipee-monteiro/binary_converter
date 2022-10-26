@@ -8,8 +8,9 @@ void getBinary(int number){
     do {
         items++;
         result_module = number % 2;
-        binary_results[items - 1] = result_module;
-        printf("%i", binary_results[items - 1]);
+        int binary_item = binary_results[items - 1];
+        binary_item = result_module;
+        printf("%i", binary_item);
         number = number / 2;
     } while (number != 0);
     printf("\t");
